@@ -1,0 +1,204 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NavDrawer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/nav_drawer_margin_offset</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+
+
+    <style name="AppThemeDb" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryInverse</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryInverse</item>
+        <item name="android:textColor">@color/colorAccent1</item>
+    </style>
+
+
+    <style name="NimbuzzTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_color_primary</item>
+        <item name="colorPrimaryDark">@color/app_color_primary_dark</item>
+        <item name="secondaryColor">@color/secondaryColor</item>
+        <item name="secondaryColorDark">@color/secondaryColorDark</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="theme_black1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_black1</item>
+        <item name="colorPrimaryDark">@color/theme_black1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_blue1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_blue1</item>
+        <item name="colorPrimaryDark">@color/theme_blue1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_pink</item>
+        <item name="secondaryColorDark">@color/theme_secondary_pinkDark</item>
+    </style>
+
+    <style name="theme_blue2" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_blue2</item>
+        <item name="colorPrimaryDark">@color/theme_blue2dark</item>
+        <item name="secondaryColor">@color/theme_secondary_pink</item>
+        <item name="secondaryColorDark">@color/theme_secondary_pinkDark</item>
+    </style>
+
+    <style name="theme_blue3" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_blue3</item>
+        <item name="colorPrimaryDark">@color/theme_blue3dark</item>
+        <item name="secondaryColor">@color/theme_secondary_pink</item>
+        <item name="secondaryColorDark">@color/theme_secondary_pinkDark</item>
+    </style>
+
+    <style name="theme_brown1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_brown1</item>
+        <item name="colorPrimaryDark">@color/theme_brown1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_brown2" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_brown2</item>
+        <item name="colorPrimaryDark">@color/theme_brown2dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_green1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_green1</item>
+        <item name="colorPrimaryDark">@color/theme_green1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_pink</item>
+        <item name="secondaryColorDark">@color/theme_secondary_pinkDark</item>
+    </style>
+
+    <style name="theme_green2" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_green2</item>
+        <item name="colorPrimaryDark">@color/theme_green2dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_green3" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_green3</item>
+        <item name="colorPrimaryDark">@color/theme_green3dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_green4" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_green4</item>
+        <item name="colorPrimaryDark">@color/theme_green4dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_green_shade" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_green_shade</item>
+        <item name="colorPrimaryDark">@color/theme_green_shade_dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_grey" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_grey_shade</item>
+        <item name="colorPrimaryDark">@color/theme_grey_shade_dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_pink1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_pink1</item>
+        <item name="colorPrimaryDark">@color/theme_pink1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_pink2" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_pink2</item>
+        <item name="colorPrimaryDark">@color/theme_pink2dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_pink3" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_pink3</item>
+        <item name="colorPrimaryDark">@color/theme_pink3dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_purple1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_purple1</item>
+        <item name="colorPrimaryDark">@color/theme_purple1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_purple2" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_purple2</item>
+        <item name="colorPrimaryDark">@color/theme_purple2dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_red1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_red1</item>
+        <item name="colorPrimaryDark">@color/theme_red1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_red2" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_red2</item>
+        <item name="colorPrimaryDark">@color/theme_red2dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="theme_yellow1" parent="@style/NimbuzzTheme">
+        <item name="colorPrimary">@color/theme_yellow1</item>
+        <item name="colorPrimaryDark">@color/theme_yellow1dark</item>
+        <item name="secondaryColor">@color/theme_secondary_blue</item>
+        <item name="secondaryColorDark">@color/theme_secondary_blueDark</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/enter_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/exit_to_bottom</item>
+    </style>
+
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+</resources>
+

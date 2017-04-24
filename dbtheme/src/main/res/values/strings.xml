@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DbTheme</string>
+    <string name="prefs_theme_key">theme</string>
+</resources>

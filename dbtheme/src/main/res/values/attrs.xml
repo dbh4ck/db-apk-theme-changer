@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColor" format="color"/>
+    <attr name="notificationColor" format="color" />
+    <attr name="colorPrimary" format="color"/>
+    <attr name="colorPrimaryDark" format="color"/>
+    <attr name="secondaryColor" format="color" />
+    <attr name="secondaryColorDark" format="color" />
+</resources>
